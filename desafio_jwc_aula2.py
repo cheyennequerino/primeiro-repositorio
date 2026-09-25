@@ -143,8 +143,8 @@ status_atual_candidato = "Em teste"
 # Use o método .upper() no print para exibir a frase toda em letras maiúsculas.
 
 # Código:
-# mensagem_aviso_mural = "Bem-vindo novos talentos!"
-# print (mensagem_aviso_mural.upper())
+mensagem_aviso_mural = "Bem-vindo novos talentos!"
+print (mensagem_aviso_mural.upper())
 
 # ==============================================================================
 # DESAFIO 11: A Senha de Acesso
@@ -264,8 +264,8 @@ status_atual_candidato = "Em teste"
 # nós a chamamos de "Constante". Por convenção (um acordo entre programadores),
 # escrevemos o nome dela todo em MAIÚSCULAS para avisar: "Não mexa aqui!".
 
-PI = 3.14
-
+# PI = 3.14
+# print (PI)
 
 # O sinal de mais (+) quando usado com textos serve para "colar" (concatenar) um no outro.
 
@@ -274,6 +274,8 @@ PI = 3.14
 # ==============================================================================
 # CONCEITO: Fixando a diferença visual. MAIÚSCULAS para coisas fixas (Constantes),
 # minúsculas para coisas que podem mudar ao longo do tempo (Variáveis).
+
+
 
 
 # ==============================================================================
@@ -285,6 +287,8 @@ PI = 3.14
 # A resposta que o usuário digitar será guardada na caixa 'linguagem_favorita'.
 
 # Depois, o computador mostra o que ele acabou de escutar e guardar.
+# linguagem_favorita = input ("Qual sua linguagem favorita?")
+# print (linguagem_favorita)
 
 # ==============================================================================
 # DESAFIO 7: O Formulário de Transporte
@@ -292,7 +296,13 @@ PI = 3.14
 # CONCEITO: Praticando a coleta de dados (input). Todo sistema precisa receber 
 # dados de alguém (do teclado, do mouse, da tela do celular).
 
+# nome_do_usuário = input ("Qual seu nome?")
+# meio_de_transporte = input ("Qual meio de transporte utiliza?") 
+# numero_de_passagens_dia = input ("Quantas passagens usa ao todo no dia?") 
 
+# print ("Nome: " + nome_do_usuário) 
+# print ("Meio de Transporte: " + meio_de_transporte)
+# print ("Número de Passagens por Dia: " + numero_de_passagens_dia) 
 
 # ==============================================================================
 # DESAFIO 8: Mudança de Planos
@@ -302,7 +312,10 @@ PI = 3.14
 # é jogado fora e substituído pelo novo.
 
 # A caixa recebe o valor "Estágio".
-
+# nome = "Cheyenne"
+# print (nome)
+# nome = "Christine"
+# print (nome)
 
 # A MESMA caixa agora recebe o valor "Full Stack". O "Estágio" sumiu para sempre.
 
@@ -314,7 +327,7 @@ PI = 3.14
 # Sim ou Não, Verdadeiro ou Falso. 
 # Importante: Em Python, eles PRECISAM começar com letra maiúscula (True / False) e não usam aspas.
 
-
+# amanda_is_admin = True
 
 
 
@@ -325,9 +338,12 @@ PI = 3.14
 # O método '.upper()' (do inglês "upper case" = letra maiúscula) pega qualquer 
 # texto minúsculo e transforma em maiúsculo na hora de exibir.
 
+# senha  = "123"
+# print (len (senha))
 
 
-# ==============================================================================
+
+# ''==============================================================================
 # DESAFIO 11: A Senha de Acesso
 # ==============================================================================
 # CONCEITO: A função 'len()' vem da palavra "length" (comprimento/tamanho em inglês).
@@ -338,6 +354,12 @@ PI = 3.14
 
 # A senha tem a palavra "senha" (5 letras) + "123" (3 números) = 8 caracteres.
 
+# conta = 5 + 5 #somar
+# print (conta)
+# letras = "5" + "5" #concatenar
+# print (letras)
+
+
 # ==============================================================================
 # DESAFIO 12: Juntando os Pedaços
 # ==============================================================================
@@ -347,6 +369,8 @@ PI = 3.14
 
 
 # Juntando: "Arthur" + " " (espaço vazio) + "Silva" = "Arthur Silva"
+
+# print ("Cheyenne" +" "+ "Christine")
 
 
 # ==============================================================================
@@ -382,3 +406,8 @@ PI = 3.14
 
 # EXPLICAÇÃO: Em vez de fazer print("Nome: " + nome + ", Idade: " + idade...), 
 # usamos a formatação 'f-string' para deixar o código limpo e elegante!
+
+# nome = "Cheyenne"
+# idade = "34"
+# print (f"O nome é {nome} e a idade é {idade}")
+
