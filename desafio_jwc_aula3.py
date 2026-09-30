@@ -120,6 +120,11 @@
 # 2 à 4ª potência (**). Multiplique o resultado pelo armazenamento atual e imprima.
 
 # Código:
+# armazenamento_atual_tb = 3
+# resultado = 2**4
+# print (resultado*armazenamento_atual_tb)
+
+
 
 
 # ==============================================================================
@@ -138,6 +143,16 @@
 #    ordem de precedência matemática: use parênteses!).
 # 4. Exiba o resultado formatado (f-string) na tela para o professor: 
 #    "Sistema JWC: O aluno [nome] fechou o ano com média [media]".
+
+# nome_aluno = input("Qual o nome do Aluno(a)? ")
+# primeira_nota = float(input("Qual a primeira nota? "))
+# segunda_nota = float(input("Qual a segunda nota? "))
+# terceira_nota = float(input("Qual a terceira nota? "))
+
+# media_das_notas = (primeira_nota + segunda_nota + terceira_nota) / 3
+# print (media_das_notas)
+
+
 
 # Código:
 
@@ -171,21 +186,21 @@
 # CONCEITO: Como a gente salva o nosso trabalho usando o Git no nosso computador?
 # Imagine que você está empacotando coisas para uma mudança.
 
-print("1. Iniciar um novo repositório local: git init")
-# EXPLICAÇÃO: 'init' (iniciar). É como pegar uma caixa de papelão vazia e dizer: 
-# "Vou começar a guardar meu projeto aqui dentro".
+# print("1. Iniciar um novo repositório local: git init")
+# # EXPLICAÇÃO: 'init' (iniciar). É como pegar uma caixa de papelão vazia e dizer: 
+# # "Vou começar a guardar meu projeto aqui dentro".
 
-print("2. Verificar o estado atual dos arquivos: git status")
-# EXPLICAÇÃO: 'status'. É olhar para a caixa e ver o que está dentro, o que foi 
-# modificado e o que ainda está fora da caixa.
+# print("2. Verificar o estado atual dos arquivos: git status")
+# # EXPLICAÇÃO: 'status'. É olhar para a caixa e ver o que está dentro, o que foi 
+# # modificado e o que ainda está fora da caixa.
 
-print("3. Adicionar arquivos à área de preparação: git add .")
-# EXPLICAÇÃO: 'add .' (o ponto significa 'tudo'). É você pegar todos os arquivos 
-# novos ou modificados e colocá-los dentro da caixa.
+# print("3. Adicionar arquivos à área de preparação: git add .")
+# # EXPLICAÇÃO: 'add .' (o ponto significa 'tudo'). É você pegar todos os arquivos 
+# # novos ou modificados e colocá-los dentro da caixa.
 
-print("4. Salvar as alterações com uma mensagem: git commit -m 'mensagem'")
-# EXPLICAÇÃO: 'commit'. É você passar a fita adesiva na caixa, fechar e colar uma 
-# etiqueta (a mensagem) dizendo: "Aqui dentro estão as alterações do dia 21".
+# print("4. Salvar as alterações com uma mensagem: git commit -m 'mensagem'")
+# # EXPLICAÇÃO: 'commit'. É você passar a fita adesiva na caixa, fechar e colar uma 
+# # etiqueta (a mensagem) dizendo: "Aqui dentro estão as alterações do dia 21".
 
 # ==============================================================================
 # DESAFIO 3: A Primeira Feature (Operador de Subtração -)
