@@ -30,6 +30,8 @@
 
 # Código:
 
+
+
 # ==============================================================================
 # DESAFIO 2: Simulação de Desastres (Recuperação de Arquivos)
 # ==============================================================================
@@ -53,6 +55,12 @@
 # "JWC@Admin", imprima "Acesso Liberado.". Caso contrário, imprima "Acesso Negado!".
 
 # Código:
+# senha_digitada = "JWC@Admin"
+
+# if senha_digitada == "JWC@Admin" : 
+#     print ("Acesso Liberado")
+# else:  
+#     print ("Acesso Negado")
 
 
 # ==============================================================================
@@ -70,6 +78,16 @@
 
 # Código:
 
+# nivel_ameaca = 3
+
+# if nivel_ameaca == 1: 
+#     print ("Baixa: Adicionar ao Backlog da Sprint")
+# elif nivel_ameaca == 2:
+#     print ("Média: Desenvolvedor deve revisar hoje")
+# elif nivel_ameaca == 3:
+#     print ("Alta/Crítica: Acionar Mateus (DevSecOps) imediatamente!")
+# else:
+#     print ("Nível não reconhecido")
 
 
 # ==============================================================================
@@ -86,3 +104,17 @@
 # Caso Padrão (_): "Opção inválida. Tente novamente."
 
 # Código:
+
+opcao_menu = 10
+
+
+match opcao_menu:
+    case 1: 
+        print("Iniciando varredura SAST no código fonte...")
+    case 2: 
+        print("Iniciando processo de sanitização de metadados...")
+    case 3:
+        print("Gerando relatório OWASP de vulnerabilidades...")
+    case _: 
+        print("Opção inválida. Tente novamente.")
+
