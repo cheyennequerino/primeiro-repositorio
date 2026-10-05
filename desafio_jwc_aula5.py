@@ -26,7 +26,14 @@
 # Se ambas as condições forem verdadeiras, imprima "Acesso liberado ao módulo avançado.".
 # Caso contrário, imprima "Acesso negado: Requisitos não preenchidos.".
 
-# Código:
+# # Código:
+# idade = 20
+# matricula_ativa = True
+
+# if idade > 18 and matricula_ativa:
+#     print("Acesso liberado ao módulo avançado.")
+# else:
+#     print("Acesso negado: Requisitos não preenchidos.")
 
 # ==============================================================================
 # DESAFIO 2: Triagem de Mensagens no Chatbot (Operador 'or')
@@ -40,7 +47,14 @@
 # Se verdadeiro, imprima "Transferindo para um atendente humano...".
 # Caso contrário, imprima "Atendimento automatizado em andamento.".
 
-# Código:
+# Código: 
+
+# mensagem_cliente = "Quero falar com o atendente"
+
+# if "suporte" in mensagem_cliente or "financeiro" in mensagem_cliente:
+#     print("Transferindo para um atendente humano...")
+# else:
+#     print("Atendimento automatizado em andamento.")
 
 # ==============================================================================
 # DESAFIO 3: Status de Manutenção do Sistema (Operador 'not')
@@ -53,7 +67,13 @@
 # Se for verdadeiro (não está em manutenção), imprima "Servidor operacional. Iniciando rotina.".
 # Caso contrário, imprima "Sistema em manutenção. Tente novamente mais tarde.".
 
-# Código:
+# # Código:
+# em_manutencao = False
+
+# if not em_manutencao: 
+#     print("Servidor operacional. Iniciando rotina.")
+# else: 
+#     print("Sistema em manutenção. Tente novamente mais tarde.")
 
 # ==============================================================================
 # DESAFIO 4: Emissão de Certificado de Conclusão (Operadores 'and' e 'not')
@@ -66,7 +86,13 @@
 # Caso contrário, imprima "Emissão bloqueada. Verifique suas pendências ou nota.".
 
 # Código:
+# nota_final = 8.5
+# possui_pendencia = True
 
+# if nota_final >= 7 and not possui_pendencia: 
+#     print("Certificado emitido com sucesso!")
+# else:
+#     print("Emissão bloqueada. Verifique suas pendências ou nota.")
 
 # ==============================================================================
 # DESAFIO 5: Classificação de Desempenho do Código (if / elif / else com 'and')
@@ -80,6 +106,14 @@
 # - Se tempo_resposta_ms > 300: "Atenção: Código precisa de otimização!"
 
 # Código:
+# tempo_resposta_ms = 30
+
+# if tempo_resposta_ms < 100: 
+#     print("Excelente Performace.")
+# elif tempo_resposta_ms >= 100 and tempo_resposta_ms <= 300: 
+#     print("Performance aceitável")
+# else:
+#     print("Atenção: Código precisa de otimização!")
 
 
 # ==============================================================================
@@ -95,6 +129,14 @@
 
 # Código:
 
+# horas_extras = 15
+# projetos_entregues = 4
+# nota_avaliacao = 7.0
+
+# if horas_extras > 20 or projetos_entregues > 5 and nota_avaliacao > 8:  
+#     print("Colaborador elegível para bônus!")
+# else: 
+#     print("Critérios de bônus não atingidos.")
 
 # ==============================================================================
 # DESAFIO 7: Validação de Cadastro de Usuário (Análise de Strings com 'and')
@@ -108,7 +150,12 @@
 # Imprima "Nome de usuário válido!" ou "Nome de usuário inválido.".
 
 # Código:
+# usuario = "dev_python"
 
+# if len (usuario) > 3 and ' ' not in usuario: 
+#     print("Nome de usuário válido!")
+# else: 
+#     print("Nome de usuário inválido.")
 
 # ==============================================================================
 # DESAFIO 8: Menu de Feedback de Code Review (Match-Case)
@@ -121,8 +168,18 @@
 # - Caso 3: "Reprovado: Reescrever lógica e adicionar tratamento de erros."
 # - Caso Padrão (_): "Status não identificado. Consulte a Eduarda."
 
-# Código:
+# # Código:
+# codigo_status = 2
 
+# match codigo_status: 
+#     case 1: 
+#         print("Aprovado: Código limpo e pronto para produção.")
+#     case 2: 
+#         print ("Aprovado com ressalvas: Ajustar nomes de variáveis.")
+#     case 3: 
+#         print ("Reprovado: Reescrever lógica e adicionar tratamento de erros.")
+#     case _: 
+#         print ("Status não identificado. Consulte a Eduarda.")
 
 # ==============================================================================
 # ==============================================================================
