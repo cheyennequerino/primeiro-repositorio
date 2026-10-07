@@ -27,7 +27,22 @@
 
 # Código:
 
+# novos_alunos = ["Ana", "Carlos", "Beatriz", "Cheyenne", "Karina", "Jéssica", "Thais"]
 
+# for novos_alunos in novos_alunos:
+#     print (novos_alunos)
+
+
+# nomes_para_votar = ["Thais", "Talita", "Monique"]
+
+# for nome in nomes_para_votar:
+#     print(f"DOCUMENTO - {nome}")
+#     print(f"ASSINAR - {nome}")    
+#     print(f"VERIFICAR DIGITAL - {nome}")  
+#     print(f"VOTAR - {nome}")   
+
+
+  
 # ==============================================================================
 # DESAFIO 2: Tentativas de Reconexão do Agente IA (Laço 'while')
 # ==============================================================================
@@ -39,6 +54,14 @@
 # Não se esqueça de incrementar a variável 'tentativas' para evitar um loop infinito!
 
 # Código:
+
+# tentativas = 1
+
+# while tentativas  <= 3:
+#     print(f"Tentativa de conexão Dialogflow: {tentativas}")
+#     tentativas = tentativas + 1
+   
+
 
 
 # ==============================================================================
@@ -53,6 +76,13 @@
 
 # Código:
 
+# intencoes = ["Duvida", "Matricula", "Reclamação", "Matricula"]
+
+# for intencao in intencoes:
+#     if intencao == "Matricula":
+#         print("Processando fluxo de matrícula no Make.com...")
+#     else:
+#         print("Intenção ignorada.")
 
 # ==============================================================================
 # DESAFIO 4: Menu Interativo de Automação (Simulação de 'Do-While')
@@ -67,6 +97,14 @@
 
 # Código:
 
+# while True: 
+#     opcao = int(input("Digite 1 para iniciar o chatbot ou 0 para sair: "))
+#     if opcao == 0:
+#         print("Encerrando o sistema")
+#         break
+#     if opcao == 1:
+#         print("Chatbot iniciado!")
+  
 
 # ==============================================================================
 # DESAFIO 5: Contagem Regressiva para Deploy (Função range)
@@ -79,14 +117,18 @@
 
 # Código:
 
+# contagem_regressiva = range (10, 0, -1) 
+
+# for contagem_regressiva in contagem_regressiva: 
+#     print(contagem_regressiva)
+# print("Servidor reniciado!")
+
 
 # ==============================================================================
 # ==============================================================================
 # DESAFIOS OPCIONAIS (PARA ALUNOS AVANÇADOS)
 # ==============================================================================
 # ==============================================================================
-
-
 # ==============================================================================
 # DESAFIO 6 (OPCIONAL): Processamento de Fila com Interrupção Crítica
 # ==============================================================================
