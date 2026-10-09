@@ -407,7 +407,7 @@ print (mensagem_aviso_mural.upper())
 # EXPLICAÇÃO: Em vez de fazer print("Nome: " + nome + ", Idade: " + idade...), 
 # usamos a formatação 'f-string' para deixar o código limpo e elegante!
 
-nome = "Cheyenne"
-idade = "34"
-print (f"O nome é {nome} e a idade é {idade}")
+# nome = "Cheyenne"
+# idade = "34"
+# print (f"O nome é {nome} e a idade é {idade}")
 
